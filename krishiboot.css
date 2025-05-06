@@ -1223,7 +1223,7 @@ padding-inline: 90px;
 
     .hero-secondary img {
     width: 100%;
-    margin-inline: 8px;
+    margin-inline: 0;
     height: 280px;
     }
 
