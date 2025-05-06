@@ -1515,6 +1515,7 @@ padding-inline: 90px;
     .hero-secondary p {
     margin-top: 8px;
     text-align: center;
+    margin-inline: auto;
     font-size: 18px;
     }
 
