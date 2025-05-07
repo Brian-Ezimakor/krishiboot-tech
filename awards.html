@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<base target="_parent" data-theme="light">
+<base target="_parent">
 <meta charset="UTF-8">
 <meta name="description" content="Krishiboot technologies is an AgriTech startup based in India, on a mission to 
 revolutionize farming and tackle labor-intensive challenges in agriculture through autonomous robotics and artificial 
 intelligence(AI)">
 <meta name="author" content="Brian Ezimakor">
 <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
-<title>Krishiboot Technologies - Contact Us</title>
-<link rel="stylesheet" href="krishiboot.css" as="style">
-<link rel="stylesheet" href="contact.css" as="style"> 
+<title>Krishiboot Technologies - Our Achievements</title>
+<link rel="stylesheet" href="krishiboot.css" as="style"> 
 <link rel="icon" href="Agriyan.webp">
-<base target="_parent">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +25,6 @@ intelligence(AI)">
 <script src="menuscript.js"></script>
 </head>
 
-
 <body>
 
 <header>
@@ -41,7 +38,7 @@ intelligence(AI)">
         <a href="about-krishiboot.html">About Us</a>
         <a href="product-krishiboot.html">Products</a>
         <!-- <a href="#">Services</a> -->
-        <a href="#">Awards</a>
+        <a href="awards.html" class="active">Awards</a>
     </div>
 
     <div class="button-container cta">
@@ -55,10 +52,6 @@ intelligence(AI)">
     </div>
 
 </header>
-
-<section class="contact-hero">
-        <h1>Contact Us</h1>
-</section>
 
 <section class="menuAccordion">
     <div class="menuHeader">
@@ -77,7 +70,7 @@ intelligence(AI)">
 
         <a href="product-krishiboot.html">Products</a>
 
-        <a href="#">Awards</a>
+        <a href="awards.html">Awards</a>
 
         <a href="contact-krishiboot.html">Contact Us</a>
     </div>
@@ -94,30 +87,58 @@ intelligence(AI)">
     </div>
 </section>
 
-<section class="contact">
-    <form>
-        <h2>Send us a message</h2>
-        <p>We will get back to you within 24 hours</p><br>
+<section class="contact-hero">
+    <h1><i class="fa-solid fa-award"></i> Awards</h1>
+</section>
 
-        <div>
-        <input type="text" placeholder="Name" name="name" id="name">
-        <input type="email" placeholder="Email" name="" id="email">
-        </div>
-        <br>
-        <input type="number" placeholder="Number" name="number" id="number">
-        <br><br>
-        <textarea placeholder="Message" name="message" id="message"></textarea>
-        <button type="submit" class="button cta">Send</button>
-    </form>
+<section class="about">
+    <div class="reason-h2">
+    <h2>Our Achievements</h2>
+    <p>So far as a company we have earned a name for ourselves in India, from various awards to funds contribution.</p>
 
-    <div>
-        <h2>Get in touch</h2>
+        <div class="why-us">
+            <div class="benefit">
+                <img src="lemon.webp" alt="winner">
+                <span>First runner up Innopreneurs Startup Contest</span>
+                <!-- <p>Apart from our franchise we run a subscription plan focused on corporate farms and overseas customers.</p> -->
+            </div>
 
-        <p><i class="fa-solid fa-phone font"></i>  <a href="tel: +91 8766543498">+91 8766543498</a></p>
-        <p><i class="fa-solid fa-envelope font"></i> <a href="mailto: hello@krishiboot.com">hello@krishiboot.com</a></p>
-        <!-- <p><i class="fa-solid fa-phone"></i> <a href="tel: +2348036490205">+234 8036490205</a></p>
-        <p><i class="fa-solid fa-envelope"></i> <a href="maito: info@nedciconsulting.com">info@nedciconsulting.com</a></p>         -->
-    </div>
+            <div class="benefit">
+                <img src="bizquotient1.webp" alt="winner">
+                <span>Winner at TIEPune Biz Quotient</span>
+                <!-- <p>Agriyan reduces labour by 85% & saves your the stress, from spraying to weeding.</p> -->
+            </div>
+
+            <div class="benefit">
+                <img src="global-fostering-ent-copy.webp" alt="winner" class="specialImg">
+                <span>Best Sustainability Startup</span>
+                <!-- <p>From research about 14.3% of water and chemicals are wasted while spraying manually, not with Agriyan. Agriyan applys precision spraying.</p> -->
+            </div>
+
+            <div class="benefit">
+                <img src="csr-grant-solutia.webp" alt="Grant">
+                <span>CSR Grant by Solutia Chemicals</span>
+                <!-- <p>Agriyan comes with a camera for crop detection. We have collected thousands of images to trian our AI model.</p> -->
+            </div>
+
+            <div class="benefit">
+                <img src="indian-inst-of-tech-b.webp" alt="Grant">
+                <span>Translational research Accelerator Fund</span>
+                <!-- <p>With a strong and flexible structure it is designed to adjust to accomodate different crop row spacing. Agriyan was designed for a wide application.</p> -->
+            </div>
+
+            <div class="benefit">
+                <img src="nidhi.webp" alt="Grant">
+                <span>NIDHI EIR</span>
+                <!-- <p>Comes with a strong battery life & night vision to work any time of the day. Agriyan can also navigate without any human intervention.</p> -->
+            </div>
+
+            <!-- <div class="benefit">
+                <i class="fa-solid fa-sitemap"></i>
+                <span>Modular Structure</span>
+                <p>Agriyan is a modular powerhouse that can achieve a lot with it's plug-n-play attachments for different farming operations.</p>
+            </div>
+        </div> -->
 </section>
 
 
@@ -147,7 +168,7 @@ intelligence(AI)">
     <div>
         <p>Others</p>
 
-        <a href="#" class="firstlink">Awards</a>
+        <a href="awards.html" class="firstlink">Awards</a>
         <a href="contact-krishiboot.html" class="firstlink">Write Us</a>
         <a href="privacy-policy.html">Privacy Policy</a>
     </div>
@@ -178,4 +199,5 @@ intelligence(AI)">
 </footer>
 
 </body>
+
 </html>
